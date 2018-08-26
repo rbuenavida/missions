@@ -1,0 +1,38 @@
+table.MissionGrid {
+  /* border-collapse: collapse; */
+  border: 1px solid #ddd;
+}
+
+table.MissionGrid thead th {
+  border-bottom: 2px solid #ddd;
+}
+
+table.MissionGrid p {
+  text-align: left;
+  padding: 0px 5px;
+  margin: 6px 0px;
+  border-right: 1px solid #ddd;
+}
+
+table.MissionGrid thead th:last-child p {
+  border-right: 0;
+}
+
+table.MissionGrid tbody td {
+  text-align: left;
+  padding: 6px;
+  border-bottom: 1px solid #ddd;
+}
+
+table.MissionGrid tfoot td {
+  border-top: 1px solid #ddd;
+  padding: 5px;
+}
+
+table.MissionGrid .closest {
+  color: green
+}
+
+table.MissionGrid .furthest {
+  color: red
+}
